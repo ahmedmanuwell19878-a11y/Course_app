@@ -1,0 +1,63 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+
+.whatsapp{
+    position: fixed;
+    bottom:0;
+    left: 0;
+    margin:30px 155px;
+    z-index: 1000;
+    background-color: green;
+    color: white;
+   
+}
+.whatsapps{
+    font-size: 19px;
+    text-align: center;
+    z-index: 1000;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    margin:30px 155px;
+    z-index: 1000;
+}
+.bannercontent{
+    font-size: 25px;
+    text-align: start;
+    line-height: 32px;
+    
+    }
+    .bannercontent br{
+        display: none;
+    }
+    .bannercontentbtn ctn{
+        flex-direction: column;
+    }
+    .container-fluid {
+        margin-top: 17px;
+    }
+    .bannercontent p{
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .bannercontent ul li{
+        font-size:17px;
+    }
+    
+    .tabcontent ul li{
+        font-size: 10px;
+    }
+   
+    .p-4 {
+        padding: 0.5rem !important;
+    }
+    
+}
+
+
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1170px;
+    }
+}
+

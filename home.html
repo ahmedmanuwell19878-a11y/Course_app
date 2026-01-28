@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrai_Mentors</title>
+    <link rel="icon" href="images/fer.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+</head>
+<body>
+ 
+    <!--Enquiry Modal -->
+<div class="modal fade" id="enModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Demo Class Registration</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="" >
+                
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Name</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control">
+                </div>
+                <div class=" mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Course name</label>
+                    <input type="text" class="form-control">
+                </div>
+                  </div>
+                  <input class="btn btn-primary" type="submit" value="Submit">
+            </form>
+        </div>
+      
+      </div>
+    </div>
+  
+    <div class="modal fade" id="sir">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">login</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="" >
+                    
+                   
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label"> E-mail</label>
+                        <input type="email" placeholder="Enter your email address" class="form-control">
+                    </div>
+                    <div class=" mb-3">
+                        <label for="exampleInputEmail1" class="form-label"> Password</label>
+                        <input type="password" placeholder="Enter your Password" class="form-control">
+                    </div>
+                      </div>
+                      <input class="btn btn-primary" type="submit" value="login">
+                </form>
+            </div>
+          
+          </div>
+        </div>
+
+
+    <header class="container-fluid py-2 shadow-lg  top-0">
+        <div class="container ">
+            <div class="row align-items-center">
+                <figure class="col-lg-6 mb-0 pb-0 text-lg-start text-center"><img src="images/logo.svg" alt=""><b>Ferrari mentors</b></figure>
+                
+                <div class="col-lg-6 ">
+                    <div class="btn-outer text-end">
+                    <button class="btn btn-outline-success whatsapp "> <i class="fa-brands fa-whatsapp"></i> chat with us</button>
+                    <button data-bs-toggle="modal" data-bs-target="#sir" class="btn btn-primary whatsapps ">login</button>
+                </div>
+                </div>
+                
+            
+            </div>
+        </div>
+    </header>
+
+<section class="container-fluid  py-lg-5 py-sm-4 py-3">
+    <div class="container">
+        <div class="row justify-content-start align-items-center">
+     <div class="col-lg-6"><div class="bannercontent"><h1><b>Career Oppourtunities </br>in <span> Digital Marketing</span></b></h1>
+    <p>Digital marketing course is very good,you only pay after placement</p>
+    <ul class="m-0 p-0">
+        <li class="mb-3"><i class="fa-solid fa-square-check"></i> Specialization: Performance marketing</li>
+        <li class="mb-3"><i class="fa-solid fa-square-check"></i> Min salary of Rs 4.5 LPA</li>
+        <li class="mb-3"><i class="fa-solid fa-square-check"></i> 50 seats only</li>
+    </ul>
+<div class="bannercontentbtn flex">
+    <button data-bs-toggle="modal" data-bs-target="#enModal" class="btn btn-primary ctn">Book 2 Days Demo</button>
+    <button class="btn btn-outline-secondary ctn"><img src="images/download.svg" alt=""> Download Curiculum</button>
+</div>
+</div></div>
+     <div class="col-lg-5">
+        <form action="" class="bannerform ">
+            <h3>Book Your Free Trail Class Now!</h3>
+            <p>2 days of free demo classes without paying in advance</p>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Name</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control">
+            </div>
+            <div class=" mb-3">
+                <label for="exampleInputEmail1" class="form-label">Mobile number</label>
+                <div class="input-group">
+                <span class="input-group-text" id="basic-addon1">+92</span>
+                <input type="text" class="form-control" placeholder="Enter mobile number" >
+            </div>
+              </div>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary " onclick="showAlert()" id="" type="submit">Register Now</button>
+                
+                 
+              </div>
+        </form>
+     </div>
+        </div>
+    </div>
+
+    <div class="container shadow-lg mt-5 countersection">
+        <div class="row row-cols-lg-5 row-cols-md-3 row-cols-2 p-4">
+          <div class="col"><h2>1000+</h2>
+        <p>Student Trained</p></div>
+          <div class="col"><h2>4.5 LPA</h2><p>Salary Packages</p></div>
+          <div class="col"><h2>320+</h2><p>Recruting Partners</p></div>
+          <div class="col"><h2>10:00 am</h2><p>Program timing</p></div>
+          <div class="col"><h2>11th May</h2><p>next batch starts</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid highlightsection py-5">
+    <div class="container ">
+        <div class="row mb-4">
+            <div class="col-12">
+            <h2>Key Highlights of the Course</h2>
+        <p>Digital marketing,Facebook ads,Google ads,Youtube ads and Campaigns Running.</p>
+        </div>
+        </div>
+
+        <div class="row gy-3">
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class=" p-3 d-flex align-items-start gap-3 highlightitems" ><img src="images/file-earmark-text.svg" alt="" width="45px" height="70px">
+                <div><h4>Assistant & <br>modules test </h4>
+                <p>Test your knowledge</p></div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class=" p-3 d-flex align-items-start gap-3 highlightitems" ><img src="images/file-earmark-break.svg" alt="" width="45px" height="70px">
+                <div><h4>Industry-recognized<br>Certification</h4>
+                <p>Standout to your Professional</p></div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class=" p-3 d-flex align-items-start gap-3 highlightitems" ><img src="images/camera-video-fill.svg" alt="" width="45px" height="70px">
+                <div><h4>live Classes &<br>Recorded lectures </h4>
+                <p>Best of both worlds of learning</p></div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class=" p-3 d-flex align-items-start gap-3 highlightitems" ><img src="images/download-svgrepo-com.svg" alt="" width="45px" height="70px">
+                <div><h4>Downloadable<br>Content </h4>
+                <p>with lifetime acess</p></div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class=" p-3 d-flex align-items-start gap-3 highlightitems" ><img src="images/message-list-svgrepo-com.svg" alt="" width="45px" height="70px">
+                <div><h4>Four live doubt clearing<br>sessions</h4>
+                <p>Gain a clear understanding</p></div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class=" p-3 d-flex align-items-start gap-3 highlightitems" ><img src="images/star-svgrepo-com.svg" alt="" width="45px" height="70px">
+                <div><h4>6 industry level<br>projects </h4>
+                <p>get practical skills</p></div>
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="row text-center">
+      <div class="col-12"><button type="button" class="btn btn-primary btn-lg shadow-lg mt-3">book free class</button></div>
+    </div>
+    
+</section>
+
+
+
+<section class="conatiner-fluid my-4">
+<div class="container">
+  <h1 style="text-align: center;"><b>Our Achievements</b></h1>
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" >
+        <img src="https://www.reliablesoft.net/wp-content/uploads/2021/10/digital-marketing-team.webp " class="img-fluid" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><b>Session in Oxford university</b></h5>
+        </div>
+      </div>
+      <div class="carousel-item uniqueSlider">
+        <img src="https://constructivist.co.uk/wp-content/uploads/2024/05/Bengt-and-Oliver-delivering-a-workshop.jpg" class="img-fluid"  alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><b>webinar in nust</b></h5>
+          
+        </div>
+      </div>
+     
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</div>
+</section>
+
+
+<section class="container-fluid py-3 my-3">
+<div class="container">
+<div class="row justify-content-center">
+  <div class="col-lg-8 text-center">
+    <h1><b>Curiculum of <br>our Digital Markreting</b></h1>
+  </div>
+</div>
+<div class="row">
+  <nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Introduction</button>
+      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">case studies</button>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Google Adsense</button>
+      </li>
+      <button class="nav-link" id="seo" data-bs-toggle="tab" data-bs-target="#nav-seo" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">SEO mastery</button>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+    <div class="row p-4 shadow-lg tabcontent">
+    <div class="col-sm-6 col-12">
+      <ul>
+        <li><img src="images/check.svg" alt="" width="20px"> What is digital marketing?</li>
+        <li><img src="images/check.svg" alt="" width="20px"> Requirments of digital marketing?</li>
+        <li><img src="images/check.svg" alt="" width="20px"> Digital marketing for working Professional</li>
+        <li><img src="images/check.svg" alt="" width="20px"> Job Oppourtunities in digital marketing</li>
+      </ul>
+    </div>
+    <div class="col-sm-6 col-12"><ul>
+      <li><img src="images/check.svg" alt="" width="20px"> Scope of digital marketing</li>
+      <li><img src="images/check.svg" alt="" width="20px"> latest trends in digital marketing</li>
+      <li><img src="images/check.svg" alt="" width="20px"> Digital marketing for small,medium and large bussiness </li>
+    </ul></div>
+  </div>
+</div>
+<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+  <div class="row p-4 shadow-lg tabcontent">
+    <div class="col-sm-6 col-12">
+      <ul>
+        <li><img src="images/check.svg" alt="" width="20px">  Nike: "You Can't Stop Us" Campaign</li>
+        <li><img src="images/check.svg" alt="" width="20px"> Coca-Cola: Share a Coke Campaign</li>
+        <li><img src="images/check.svg" alt="" width="20px"> Dove: Real Beauty Sketches</li>
+        <li><img src="images/check.svg" alt="" width="20px"> Amazon: Personalization & Recommendation Engine</li>
+      </ul>
+    </div>
+    <div class="col-sm-6 col-12"><ul>
+      <li><img src="images/check.svg" alt="" width="20px"> Spotify: Wrapped Campaign</li>
+      <li><img src="images/check.svg" alt="" width="20px"> Old Spice: "The Man Your Man Could Smell Like"</li>
+      <li><img src="images/check.svg" alt="" width="20px"> Zomato: Meme Marketing </li>
+    </ul></div>
+  </div>
+</div>
+
+<div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+  <div class="row p-4 shadow-lg tabcontent">
+    <div class="col-sm-6 col-12">
+      <ul>
+        <li><img src="images/check.svg" alt="" width="20px"> What is Google AdSense?</li>
+        <li><img src="images/check.svg" alt="" width="20px"> How Google AdSense Works?</li>
+        <li><img src="images/check.svg" alt="" width="20px"> Benefits of Using AdSense</li>
+        <li><img src="images/check.svg" alt="" width="20px"> Understanding Ad Formats</li>
+      </ul>
+    </div>
+    <div class="col-sm-6 col-12"><ul>
+      <li><img src="images/check.svg" alt="" width="20px"> AdSense Eligibility Requirements</li>
+      <li><img src="images/check.svg" alt="" width="20px"> How to Create a Google AdSense Account</li>
+      <li><img src="images/check.svg" alt="" width="20px"> Website Requirements for Approval </li>
+      <li><img src="images/check.svg" alt="" width="20px"> Understanding AdSense Policies</li>
+    </ul></div>
+  </div>
+</div>
+<div class="tab-pane fade" id="nav-seo" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+  <div class="row p-4 shadow-lg tabcontent">
+    <div class="col-sm-6 col-12">
+      <ul>
+        <li><img src="images/check.svg" alt="" width="20px"> What is SEO?</li>
+        <li><img src="images/check.svg" alt="" width="20px"> Importance of SEO for Websites</li>
+        <li><img src="images/check.svg" alt="" width="20px"> How Search Engines Work?</li>
+        <li><img src="images/check.svg" alt="" width="20px"> Overview of On-Page, Off-Page, and Technical SEO</li>
+      </ul>
+    </div>
+    <div class="col-sm-6 col-12"><ul>
+      <li><img src="images/check.svg" alt="" width="20px"> What Are Keywords?</li>
+      <li><img src="images/check.svg" alt="" width="20px"> Types of Keywords: Short-Tail vs. Long-Tail</li>
+      <li><img src="images/check.svg" alt="" width="20px"> How to Find High-Performing Keywords </li>
+      <li><img src="images/check.svg" alt="" width="20px"> URL Structure Best Practices</li>
+    </ul></div>
+  </div>
+</div>
+
+  </div>
+ 
+</div>
+    </div>
+</section>
+
+<section class="container-fluid bg-secondary-subtle  my-4 py-3">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h1 class="text-center"><b>Digital Marketing Course <br>FAQs</b></h1>
+        <p class="text-center">If you have any queries regarding this course so, we also give answers of some frequently asked questions
+        </p>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                What is digital marketing?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Digital marketing, also known as online marketing, is the promotion of brands and products using digital channels like the internet, social media, email, and other online platforms to connect with potential customers.</div>
+            </div>
+          </div>
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Can we get a job after this course without degree?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Yes,you definetly get a job after this course because we will make you an ads expert so you also can open your own bussiness or can sell the products of others.You will sell many products of our ecommerce store and will run ads on Youtube and Google.So, dont worry.</div>
+            </div>
+          </div>
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                This course is completely online so how would we clear our queries?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">we will take live classes on zoom and you can share your screen with us and clear your confusions you also can take a screenshot of your issue and send to us so we will answer you</code> .</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" ></script>
+
+<script>
+   
+function showAlert() {
+<div id="myAlert" class="alert alert-success alert-dismissible fade show mt-3" role="alert" style="display: none;">
+    <strong>Success!</strong> This is a Bootstrap alert message.
+    <button type="button" class="btn-close" onclick="hideAlert()" aria-label="Close"></button>
+  </div>
+  prevent
+}
+  
+
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- Scrollable modal -->
+<div class="modal-dialog modal-dialog-scrollable">
+    ...
+  </div>

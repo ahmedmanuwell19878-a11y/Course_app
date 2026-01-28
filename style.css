@@ -1,0 +1,80 @@
+*{
+    font-family:"Inter",sans-serif;
+
+}
+.whatsapp{
+    margin:26px 18px;
+   
+    
+}
+
+.bannercontent{
+
+font-size: 52px;
+}
+.bannercontent h1 span{
+    color:#2699FB;
+}
+.bannercontent p{
+    font-size:22px;
+}
+.bannercontent ul{
+    list-style-type:none;
+    font-size: 20px;
+}
+.bannercontent ul li i{
+color:#2699FB;
+}
+
+.bannerform{
+    padding: 40px;
+}
+.bannerform h3{
+font-weight: bold;
+font-size: 18px;
+}
+.countersection h2{
+font-weight: bold;
+color:#2699FB;
+font-size: 32px;
+}
+.highlightsection h2{
+    color: #0A2134;
+    font-size: 36px;
+    font-weight: bold;
+}
+.highlightsection p{
+    font-size:18px;
+}
+.highlightitems h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.highlightitems img{
+    margin-bottom: 29px;
+}
+.highlightitems p{
+    font-size: 17px;
+}
+.highlightitems{
+    background-color:white;
+}
+.highlightsection{
+    background-color: azure; 
+}
+
+.uniqueSlider img{
+    height:490px; 
+    width:1500px;
+}
+.university img{
+    height:490px; 
+    width:1000px;
+}
+.tabcontent ul{
+    list-style:none;
+}
+.tabcontent ul li{
+    margin:15px;
+    font-size: 19px;
+}
