@@ -2,7 +2,7 @@
 
 I created this app using **HTML**,**CSS**,**Javascript** and **Bootstrap**.This is an app in which you will get guidance of digital marketing course.
 
-I used many bootstrap classes,properties and logic.I used carousel slider,modal and many other logics in it.This website is completely responsive and has an amazing and user friendly UI.
+I used many bootstrap classes,properties and logics in it.I used carousel slider,modal and many other things in it.This website is completely responsive and has an amazing and user friendly UI.
 
 <img width="1598" height="738" alt="2" src="https://github.com/user-attachments/assets/ce3396a0-f140-4a5d-bf54-1227386c556e" />
 <img width="1593" height="741" alt="1" src="https://github.com/user-attachments/assets/eeead4cf-52cb-47cf-9c5b-153e70906953" />
